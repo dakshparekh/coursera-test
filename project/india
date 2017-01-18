@@ -11,6 +11,11 @@
   <br><br>
   <input type="submit" value="Submit">
 </form> 
+<form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+</form>
 
 <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
 
