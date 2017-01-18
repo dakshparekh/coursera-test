@@ -1,7 +1,20 @@
-<form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname">
-</form>
+<!DOCTYPE html>
+<html>
+<body>
 
+<form action="action_page.php">
+  First name:<br>
+  <input type="text" value="daksh">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="parekh">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+
+<p>Notice that the value of the "First name" field will not be submitted, because the input element does not have a name attribute.</p>
+
+</body>
+</html>
