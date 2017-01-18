@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
+<fieldset>
+    <legend>Name of the Property Holder:</legend>
 
 <form action="action_page.php">
   First name:<br>
@@ -11,6 +13,7 @@
   <br><br>
   <input type="submit" value="Submit">
 </form> 
+</fieldset>
 <form>
   <input type="radio" name="gender" value="male" checked> Male<br>
   <input type="radio" name="gender" value="female"> Female<br>
