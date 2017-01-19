@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html>
+<title>INDIA-NAMO</title>>
+<h1>E-PROPERTY PASSBOOK (Daksh A036)</h1>
 <body>
 <fieldset>
     <legend>Name of the Property Holder:</legend>
 
-<form action="action_page.php">
-  First name:<br>
-  <input type="text" value="daksh">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="parekh">
-  <br><br>
-  <input type="submit" value="Submit">
-</form> 
-</fieldset>
-<form>
+  <form action="action_page.php">
+    First name:<br>
+    <input type="text" value="daksh">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="parekh">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form> 
+</fieldset>>
+<fieldset>  
+  <legend>Gender:</legend>>
+  <form>
   <input type="radio" name="gender" value="male" checked> Male<br>
   <input type="radio" name="gender" value="female"> Female<br>
   <input type="radio" name="gender" value="other"> Other
 </form>
+</fieldset>>
+<fieldset>
+<legend>Address:</legend>>
+<textarea name="message" rows="10" cols="30">
+</textarea>
+</fieldset>>
+<p>This is an ADHAAR linked website </p>>
+<fieldset>
+  <legend>ADHAAR Number:</legend>>
+  <a href="https://resident.uidai.net.in/aadhaarverification">Click here to check the aadhar number is valid or not</a>
+</fieldset>>
+
+Try it Yourself »
 
 <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
-
 <p>Notice that the value of the "First name" field will not be submitted, because the input element does not have a name attribute.</p>
-
 </body>
 </html>
