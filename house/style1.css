@@ -1,0 +1,72 @@
+h3{
+	color:white;
+	
+	}
+	div{
+		color: white;
+	}
+	body{
+		background-image: url("img/bg.jpg");
+		background-size: cover;
+		margin: 0 !important;
+	}
+	nav{
+		top: 0;
+		position: absolute;
+		width: 100%;
+		background-color: #000;
+		z-index: 999999;
+	}
+	nav > ul {
+		margin: 0 !important;
+	}
+	nav > ul > a > li {
+		list-style: none;
+		font-family: sans-serif;
+		font-size: 20px;
+		display: inline-block;
+		padding: 0 10px;
+		padding: 10px;
+	}
+	nav > ul > a > li:hover{
+		background-color: #fff;
+		color: #000;
+	}
+	.main{
+		padding-top: 70px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0,0,0,0.40);
+		margin-left: 10px;
+	}
+	.link{
+		text-decoration: none;
+		color: white;
+		display: inline;
+	}
+	.link:hover{
+		color: red;
+		
+	}
+	.list{
+	display: block;
+	float: left;
+   /* width: 100px;*/
+    height: 80 px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid  #c5710d;
+
+	}
+	.margin{
+		margin-left: 10px;
+	}
+	.descale{
+	width: 50px;
+}
+h1{
+	font-size: 60px;
+}
