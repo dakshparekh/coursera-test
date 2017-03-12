@@ -1,4 +1,4 @@
-    $(document).ready(function () {
+<script>       $(document).ready(function () {
                     $('#id_radio1').click(function () {
                        $('#div2').hide('fast');
                        $('#div1').show('fast');
@@ -15,3 +15,4 @@
                       $('#div3').show('fast');
                });
              });   
+</script>
