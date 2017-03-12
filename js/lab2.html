@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>RADIO BUTTON TESTING</title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+             <script type="text/javascript">
+                 $(document).ready(function () {
+                    $('#id_radio1').click(function () {
+                       $('#div2').hide('fast');
+                       $('#div1').show('fast');
+                       $('#div3').hide('fast');
+                });
+                $('#id_radio2').click(function () {
+                      $('#div1').hide('fast');
+                      $('#div2').show('fast');
+                      $('#div3').hide('fast');
+                 });
+                $('#id_radio3').click(function () {
+                      $('#div1').hide('fast');
+                      $('#div2').hide('fast');
+                      $('#div3').show('fast');
+               });
+             });   
+</script>
+</head>
+ 
+<body>
+     <center>
+             <h2>RADIO BUTTON TESTING</h2>
+              <div style="padding:25px;width: 100px;">
+                   <input id="id_radio1" type="radio" name="name_radio1" value="value_radio1" />Web Programming<br>
+                   <input id="id_radio2" type="radio" name="name_radio1" value="value_radio2" />School Name<br>
+                   <input id="id_radio3" type="radio" name="name_radio1" value="value_radio3" />Date of birth  <br>
+              </div>
+              <div align="center" style="padding:25px;width: 300px;">
+                   <div id="div1">10 marks</div>
+                   <div id="div2">Ryan International School</div>
+                   <div id="div3">15/10/1997</div>
+              </div>
+    </center> 
+</body>
+</html>
