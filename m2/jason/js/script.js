@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded",
                  
               if ( temp === res.student1) {
              
-                var temp2= res.question1+": "
+                var temp2= res.student1+": "
                 
               }
               else if (temp === res.student2) {
