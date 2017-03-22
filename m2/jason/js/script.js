@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",
    document.getElementById("name").value;
                  
               if ( temp === res.student1) {
-             
+                  console.log(temp);
                 var temp2= res.student1+": "
                 
               }
