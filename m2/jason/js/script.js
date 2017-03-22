@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",
         
         // Call server to get the name
         $ajaxUtils
-          .sendGetRequest("data/name.json", 
+          .sendGetRequest("jason/data/name.json", 
             function (res) {
               var temp =
    document.getElementById("name").value;
@@ -29,8 +29,8 @@ document.addEventListener("DOMContentLoaded",
               document.querySelector("#content")
                 .innerHTML = "<h2>" + temp+ "</h2>";
 
-              document.querySelector("#content")
-                .innerHTML = "<h2>" + temp2+ "</h2>";
+            //  document.querySelector("#content")
+              //  .innerHTML = "<h2>" + temp2+ "</h2>";
           document.querySelector("#content1")
                 .innerHTML = "<h2>" + temp1+ "</h2>";
             });
